@@ -1,0 +1,11 @@
+{
+  "id": "com.sample.hosted",
+  "version": "2.0.0",
+  "vendor": "LaaGa asdasdDeveloper",
+  "type": "web",
+  "main": "index.html",
+  "title": "Hostsded Apwp",
+  "icon": "assets/images/icon-1.png",
+  "largeIcon": "assets/images/icon-2.png",
+  "uiRevision": 2
+}
