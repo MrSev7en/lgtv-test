@@ -6,9 +6,9 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   useEffect(() => {
     if (typeof window !== 'undefined' && typeof document !== 'undefined') {
-      document.addEventListener('DOMContentLoaded', () => {
-        document.getElementById('button').addEventListener('click', () => {
-          document.write('<p>Hello</p>')
+      window.document.addEventListener('DOMContentLoaded', () => {
+        window.document.getElementById('button').addEventListener('click', () => {
+          window.document.write('<p>Hello</p>')
         })
       })
     }
