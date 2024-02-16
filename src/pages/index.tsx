@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -7,12 +8,12 @@ export default function Home() {
     if (typeof window !== 'undefined' && typeof document !== 'undefined') {
       document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('button').addEventListener('click', () => {
-          document.write('<p>Hello</p>');
-        });
-      });
+          document.write('<p>Hello</p>')
+        })
+      })
     }
-  }, []);
-  
+  }, [])
+
   return (
     <main
       className={inter.className}
