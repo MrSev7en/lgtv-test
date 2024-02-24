@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div>
+      <h1 id="timer">Count is: 0</h1>
+    </div>
+    <script type="text/javascript">
+      let count = 0;
+
+      const initializeCounter = () => {
+        setInterval(() => {
+          const timer = document.getElementById('timer');
+
+          if (timer) {
+            timer.innerHTML = `Count is: ${count++}`;
+          }
+        }, 1000);
+      };
+
+      initializeCounter();
+    </script>
+  </body>
+</html>
